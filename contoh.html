@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata: Mhd Dimas Naufal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .biodata {
+            flex: 1;
+        }
+        img {
+            width: 150px;
+            height: auto;
+        }
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+        }
+        .socials {
+            margin-top: 20px;
+        }
+        .socials a {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>BIODATA</h1>
+    <div class="container">
+        <div class="biodata">
+            <table>
+                <tr><td>NIM</td><td>:</td><td>2405010018</td></tr>
+                <tr><td>Tempat, Tanggal Lahir</td><td>:</td><td>Medan, 12 Juli 2006</td></tr>
+                <tr><td>Agama</td><td>:</td><td>Islam</td></tr>
+                <tr><td>Jenis Kelamin</td><td>:</td><td>Laki-laki</td></tr>
+                <tr><td>Alamat</td><td>:</td><td>Jl. Cemara Gg. Turi No. 15-A, Kel. Pulo Berayan Darat II, Kec. Medan Timur, Kota Medan, Sumatera Utara 20239</td></tr>
+                <tr><td>Hobby</td><td>:</td><td>Bermain Badminton dan Bermain Alat Musik</td></tr>
+                <tr><td>Email</td><td>:</td><td>mhddimasnaufal@gmail.com</td></tr>
+            </table>
+        </div>
+        <div>
+            <img src="Dimas.jpg" alt="Foto Profil">
+            <p>Nama Mahasiswa: Mhd Dimas Naufal</p>
+            <p>No. Handphone: 0895611127740</p>
+        </div>
+    </div>
+    <div class="socials">
+        <a href="https://wa.me/62895611127740" target="_blank">Whatsapp</a>
+        <a href="https://www.instagram.com/dimaas_nfl/?utm_source=ig_web_button_share_sheet" target="_blank">Instagram</a>
+    </div>
+</body>
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerita Saya</title>
+    <style>
+        #story {
+            display: none;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="storyButton">Cerita Saya</button>
+
+    <div id="story">
+        <h2>Cerita Saya</h2>
+        <p>Ini adalah teks yang menjelaskan cerita saya.</p>
+        <img src="URL_GAMBAR_ANDA" alt="Cerita Saya">
+    </div>
+
+    <audio id="backgroundMusic" src="https://open.spotify.com/track/2ECbN3xQ7M6B7AI9BhhCy7?si=7857c57d239e43b7" preload="auto"></audio>
+
+    <script>
+        document.getElementById('storyButton').addEventListener('click', function() {
+            // Tampilkan cerita
+            document.getElementById('story').style.display = 'block';
+            // Putar musik
+            document.getElementById('backgroundMusic').play();
+        });
+    </script>
+
+</body>
+</html>
